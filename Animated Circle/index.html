@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animated Circle</title>
+    <style>
+        .animation {
+          font-size: 35px;
+          line-height: 200px;
+          font-weight: bolder;
+          color:#FFF;
+          text-align: center;
+        }
+        
+        .animationCircle {
+          transition-property: width, height, margin-left, margin-top;
+          transition-duration: 3s;
+          position: fixed;
+          transform: translateX(-50%) translateY(-50%);
+          background-color: rebeccapurple;
+          border-radius: 50%;
+        }
+      </style>
+</head>
+<body>
+    <button onclick="showAnimation()">Show Animation</button>
+    <script src="./main.js"></script>
+</body>
+</html> 
